@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pixil-frame-0 (1).png-160dd9969d7e45d14d604c370b40e019.stex"
+path="res://.import/bg.png-5046840dce817dc9e1d61a818df550fc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pixil-frame-0 (1).png"
-dest_files=[ "res://.import/pixil-frame-0 (1).png-160dd9969d7e45d14d604c370b40e019.stex" ]
+source_file="res://Sprites/bg.png"
+dest_files=[ "res://.import/bg.png-5046840dce817dc9e1d61a818df550fc.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
