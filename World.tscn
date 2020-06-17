@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=3]
+
+[node name="World" type="Node2D"]
+position = Vector2( -544, -144 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 608, 288 )
+
+[node name="WorldComplete" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1120, 464 )
+next_world = "res://World2.tscn"
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+collision_use_kinematic = true
+format = 1
+tile_data = PoolIntArray( 131091, 4, 5, 196627, 4, 65541, 262158, 4, 1, 262159, 4, 2, 262163, 4, 65541, 327694, 4, 131073, 327695, 4, 131074, 327699, 4, 65541, 393225, 4, 196608, 393226, 4, 196609, 393227, 4, 196609, 393228, 4, 196610, 393230, 4, 65537, 393231, 4, 65538, 393235, 4, 131077, 524300, 3, 0, 524304, 4, 196608, 524305, 4, 196609, 524306, 4, 196610, 589837, 3, 0 )
